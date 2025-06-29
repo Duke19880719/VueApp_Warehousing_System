@@ -95,7 +95,7 @@
         </div>
       </transition>
 
-      <!--edit 和 delete 寫在一起，還有延伸可以跟後台串接，token 沒寫-->
+      <!--edit 和 delete 寫在一起，還有延伸可以跟後台串接-->
       <transition name="fade-slide" mode="out-in">
         <div id="edit_view" v-if="display_edit_check" class="card-view">
           <h1>編輯區</h1>
